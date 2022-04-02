@@ -57,7 +57,7 @@ dima@Test-Ubuntu-1:~/otus/my-hw11$ vagrant up
 ```
 
 3. При разворачивании нашей vm видим следующие ошибки:
-![alt text](screenshots/hw11-1.PNG "screenshot1")
+![alt text](/screenshots/hw11-1.PNG?raw=true "Screenshot1")
 ```
     selinux: Job for nginx.service failed because the control process exited with error code. See "systemctl status nginx.service" and "journalctl -xe" for details.
     selinux: ● nginx.service - The nginx HTTP and reverse proxy server
