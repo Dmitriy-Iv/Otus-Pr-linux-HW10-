@@ -115,6 +115,8 @@ dima@Test-Ubuntu-1:~/otus/my-hw11$ vagrant ssh
 
 # **Обеспечение работоспособности приложения при включенном SELinux** 
 
+### **Вариант 1 - Изменим тип контекста безопасности для каталога**
+
 1. Клонируем репозиторий из методички и запускаем его.
 ![alt text](/screenshots/hw11-11.PNG?raw=true "Screenshot11")
 
@@ -142,6 +144,13 @@ dima@Test-Ubuntu-1:~/otus/my-hw11$ vagrant ssh
 9. Возвращаем контексты безопасности в первоначальное состояние.
 ![alt text](/screenshots/hw11-19.PNG?raw=true "Screenshot19")
 
+### **Вариант 2 - Создание модуля**
+
+1. На сервере с помощью утилиты audit2allow проверям лог и создаём с её помощью модуль для корректной работы named.service.
+![alt text](/screenshots/hw11-20.PNG?raw=true "Screenshot20) 
+
+2. Проверяем на client, помог ли наш модуль применённый на ns01.
+![alt text](/screenshots/hw11-21.PNG?raw=true "Screenshot21)
 
 
 
