@@ -147,10 +147,10 @@ dima@Test-Ubuntu-1:~/otus/my-hw11$ vagrant ssh
 ### **Вариант 2 - Создание модуля**
 
 1. На сервере с помощью утилиты audit2allow проверям лог и создаём с её помощью модуль для корректной работы named.service.
-![alt text](/screenshots/hw11-20.PNG?raw=true "Screenshot20) 
+![alt text](/screenshots/hw11-20.PNG?raw=true "Screenshot20")
 
 2. Проверяем на client, помог ли наш модуль применённый на ns01.
-![alt text](/screenshots/hw11-21.PNG?raw=true "Screenshot21)
+![alt text](/screenshots/hw11-21.PNG?raw=true "Screenshot21")
 
 
 
